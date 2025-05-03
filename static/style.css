@@ -1,0 +1,80 @@
+/* Custom styles for better appearance and responsiveness */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Mengubah warna latar belakang untuk tampilan yang lebih segar */
+    color: #212529; /* Mengubah warna teks untuk kontras yang lebih baik */
+}
+
+h2 {
+    margin-bottom: 1.5rem; /* Menyesuaikan margin untuk keseimbangan */
+    font-weight: 600; /* Membuat font lebih tebal untuk judul */
+    color: #343a40; /* Mengubah warna teks untuk judul untuk lebih menonjol */
+}
+
+form textarea.form-control {
+    resize: vertical; /* Mengaktifkan pengubahan ukuran textarea secara vertikal */
+    min-height: 120px; /* Mengatur tinggi minimum textarea untuk kenyamanan pengguna */
+    font-size: 1rem; /* Mengatur ukuran font untuk keterbacaan */
+    padding: 0.75rem; /* Mengatur padding untuk kenyamanan pengguna */
+    border-radius: 0.375rem; /* Mengatur radius sudut untuk tampilan yang lebih modern */
+    border: 1px solid #ced4da; /* Mengatur batas untuk tampilan yang lebih rapi */
+    transition: border-color 0.3s ease; /* Menambahkan efek transisi untuk batas saat fokus */
+}
+
+form textarea.form-control:focus {
+    border-color: #0d6efd; /* Mengubah warna batas saat fokus untuk menarik perhatian */
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); /* Menambahkan bayangan untuk efek 3D */
+}
+
+.btn-primary {
+    background-color: #0d6efd; /* Mengubah warna latar belakang tombol untuk tampilan yang lebih segar */
+    border-color: #0d6efd; /* Mengubah warna batas tombol untuk konsistensi */
+    font-weight: 600; /* Membuat font lebih tebal untuk tombol */
+    padding: 0.5rem 1.25rem; /* Mengatur padding untuk kenyamanan pengguna */
+    border-radius: 0.375rem; /* Mengatur radius sudut untuk tampilan yang lebih modern */
+    transition: background-color 0.3s ease; /* Menambahkan efek transisi untuk warna latar belakang saat dihover */
+}
+
+.btn-primary:hover {
+    background-color: #5db3de; /* Mengubah warna latar belakang tombol saat dihover untuk tampilan yang lebih menarik */
+    border-color: #0a58ca; /* Mengubah warna batas tombol saat dihover untuk konsistensi */
+}
+
+.btn-secondary {
+    font-weight: 600; /* Membuat font lebih tebal untuk tombol */
+    padding: 0.5rem 1.25rem; /* Mengatur padding untuk kenyamanan pengguna */
+    border-radius: 0.375rem; /* Mengatur radius sudut untuk tampilan yang lebih modern */
+}
+
+.container {
+    max-width: 720px; /* Mengatur lebar maksimum untuk keterbacaan */
+    margin-top: 2rem; /* Mengatur margin atas untuk keseimbangan */
+    margin-bottom: 2rem; /* Mengatur margin bawah untuk keseimbangan */
+}
+
+.card {
+    border-radius: 0.5rem; /* Mengatur radius sudut untuk tampilan yang lebih modern */
+    border: 1px solid #dee2e6; /* Mengatur batas untuk tampilan yang lebih rapi */
+    background-color: #ffffff; /* Mengubah warna latar belakang untuk tampilan yang lebih segar */
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important; /* Menambahkan bayangan untuk efek 3D */
+}
+
+.img-fluid {
+    max-width: 100%; /* Mengatur lebar maksimum untuk keterbacaan */
+    height: auto; /* Mengatur tinggi secara otomatis untuk kenyamanan pengguna */
+}
+
+.rounded {
+    border-radius: 0.375rem !important; /* Mengatur radius sudut untuk tampilan yang lebih modern */
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 1rem; /* Mengatur padding kiri untuk kenyamanan pengguna pada layar kecil */
+        padding-right: 1rem; /* Mengatur padding kanan untuk kenyamanan pengguna pada layar kecil */
+    }
+}

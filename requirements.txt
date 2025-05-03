@@ -1,0 +1,7 @@
+Flask
+pandas
+matplotlib
+seaborn
+wordcloud
+vaderSentiment
+gunicorn

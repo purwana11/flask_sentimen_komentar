@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+    <div class="card shadow-sm p-4 mb-4" style="max-width: 600px; width: 100%;">
+        <h2 class="mb-4 text-center">Hasil Klasifikasi</h2>
+        <p><strong>Komentar:</strong> {{ komentar }}</p>
+        <p><strong>Klasifikasi Sentimen:</strong> 
+            <span class="badge bg-info">{{ hasil }}</span>
+        </p>
+        <div class="text-center">
+            <a href="/" class="btn btn-secondary mt-3">Kembali</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

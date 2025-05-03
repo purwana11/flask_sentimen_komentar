@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card shadow-sm p-4 mb-4">
+    <h2 class="mb-4">Visualisasi Data</h2>
+    <div class="row">
+        {% for plot in plots %}
+        <div class="col-md-12 mb-4">
+            <img src="{{ url_for('static', filename=plot) }}" alt="plot" class="img-fluid rounded shadow-sm" style="width: 100%; height: auto;">
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
